@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#26509A',
+                        secondary: '#C9D239',
+                        Accent : '#C53A41'
+                    },
+                    fontFamily: {
+                        poppins: ['poppins', 'sans-serif'],
+
+                    },
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="font-poppins">
     <!-- header -->
     <header class="w-full shadow-lg ">
         <nav class="container mx-auto px-4">
@@ -53,6 +71,23 @@
 
         </nav>
     </header>
+
+    <!-- hero section -->
+     <section class="w-full bg-gradient-to-r from-primary to-secondary">
+        <div class="container mx-auto px-4 py-7 flex flex-col gap-3  md:flex md:flex-row">
+            <div class="text-white flex flex-col gap-4  py-4 md:w-1/2">
+                <h2 class="text-4xl font-bold ">Shaping Future Leaders Through Excellence in Education</h2>
+                <p class="text-xl ">Empowering students with knowledge, creativity, and confidence for a successful future.</p>
+                <div class="text-center">
+                    <button class="bg-green-500 border-2  border-black  p-2 rounded-2xl font-semibold w-4/5 hover:underline ">Enroll now</button>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img class="rounded-2xl " src="assets/images/hero image.png" alt="">
+            </div>
+
+        </div>
+     </section>
 
     <!-- footer --->
     <footer class="w-full bg-[#26509a]">
