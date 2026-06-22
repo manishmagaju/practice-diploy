@@ -10,14 +10,14 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <script>
+    <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         primary: '#26509A',
                         secondary: '#C9D239',
-                        Accent : '#C53A41'
+                        Accent: '#C53A41'
                     },
                     fontFamily: {
                         poppins: ['poppins', 'sans-serif'],
@@ -73,21 +73,92 @@
     </header>
 
     <!-- hero section -->
-     <section class="w-full bg-gradient-to-r from-primary to-secondary">
-        <div class="container mx-auto px-4 py-7 flex flex-col gap-3  md:flex md:flex-row">
-            <div class="text-white flex flex-col gap-4  py-4 md:w-1/2">
-                <h2 class="text-4xl font-bold ">Shaping Future Leaders Through Excellence in Education</h2>
-                <p class="text-xl ">Empowering students with knowledge, creativity, and confidence for a successful future.</p>
+    <section class="w-full bg-gradient-to-r from-primary to-secondary">
+        <div class="container mx-auto px-4 py-7 flex flex-col gap-3  md:flex md:flex-row lg:py-16">
+            <div class="text-white flex flex-col gap-4  py-4 md:w-1/2 lg:gap-8">
+                <h2 class="text-4xl font-bold md:text-3xl lg:text-4xl">Shaping Future Leaders Through Excellence in
+                    Education</h2>
+                <p class="text-xl md:text-base lg:text-2xl">Empowering students with knowledge, creativity, and
+                    confidence for a successful future.</p>
                 <div class="text-center">
-                    <button class="bg-green-500 border-2  border-black  p-2 rounded-2xl font-semibold w-4/5 hover:underline ">Enroll now</button>
+                    <button
+                        class="bg-green-500 border-2  border-black  p-2 rounded-2xl font-semibold w-4/5 hover:underline  lg:p-4 lg:text-xl">Enroll
+                        now</button>
                 </div>
             </div>
-            <div class="md:w-1/2">
-                <img class="rounded-2xl " src="assets/images/hero image.png" alt="">
+            <div class="md:w-1/2 ">
+                <img class="rounded-2xl lg:w-full lg:h-96 " src="assets/images/hero image.png" alt="">
             </div>
 
         </div>
-     </section>
+    </section>
+
+    <!-- Our Vision, Mission & Core Values -->
+    <section class="w-full bg-green-100">
+        <div class="container mx-auto px-4 py-5 flex flex-col gap-6">
+            <div>
+                <h2 class="text-lg"><span class="text-2xl text-primary font-bold">Proxima International Academy
+                        (PIA)</span> is a progressive co-educational school established
+                    and operated by highly qualified, dedicated and motivated team of school leaders. It offer life and
+                    soft skill based learning and behavior modification opportunities to each students to identify and
+                    explore their unique innate potentials and abilities to live a better and meaningful life.</h2>
+
+            </div>
+
+            <div>
+                <div>
+                    <i class="text-red-900 text-3xl fa-solid fa-eye"></i>
+                    <h3 class="text-red-900 text-2xl font-bold">VISION</h3>
+                    <p>Proxima International Academy aspires to be a premium school to nurture students' individual
+                        strengths, talents and intelligences, and transforming them to be a globally competent and
+                        responsible citizen.</p>
+                </div>
+                <div>
+                    <i class="text-green-500 text-3xl fa-solid fa-bullseye"></i>
+                    <h3 class="text-green-500 text-2xl font-bold">MISSION</h3>
+                    <p>Proxima International Academy provides opportunities to the students to explore, identify and
+                        enhance their own innate potential and strength for their holistic development through a blend
+                        of latest tools, techniques, philosophies and pedagogies scaffolded by skilled and highly
+                        qualified intellectual resources.</p>
+                </div>
+                <div>
+                    <i class="text-blue-800 text-3xl fa-regular fa-gem"></i>
+                    <h3 class="text-blue-800 text-2xl font-bold">CORE VALUE</h3>
+                    <ul>
+                        <li>Quality Education</li>
+                        <li>Education with Culture</li>
+                        <li>Academic Excellence</li>
+                        <li>Cross, Inter & Trans Disciplinary Collaboration</li>
+                        <li>Continuous Improvement</li>
+                        <li>Project Based Learning</li>
+                        <li>Diversity and Tolerance</li>
+                        <li>Values and Ethics</li>
+                        <li>Global Citizenship</li>
+                        <li>Learning Beyond Classroom</li>
+                        <li>Law Abiding Global Citizen</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>A School That Make Difference in Your's Child Life</h3>
+                <ol class="list-decimal">
+                    <li>Individualized Educational Plan for your child.</li>
+                    <li>Strength Based Schooling that focuses on child's strengths by managing shortcomings.</li>
+                    <li>Individual Parent Student Counselling to meet the necessary motivation for change.</li>
+                    <li>Standardized Assessment and Evaluation to measure the holistic development.</li>
+                    <li>Smart Homework Policy to reduce unnecessary burden of rote learning.</li>
+                    <li>Remedial Action Plan to provide constructive feedback to students for fast paced learning. </li>
+                    <li>Enhanced learning culture.</li>
+                    <li>Enhanced reading program.</li>
+                    <li>Regular CCA/ECA activities.</li>
+                </ol>
+            </div>
+
+
+        </div>
+    </section>
 
     <!-- footer --->
     <footer class="w-full bg-[#26509a]">
@@ -139,7 +210,10 @@
             </div>
         </div>
 
-        <div><p class="text-center text-white bg-blue-950 text-xs p-3">&copy; 2026 Proxima International Academy | All Rights Reserved | Privacy Policy</p></div>
+        <div>
+            <p class="text-center text-white bg-blue-950 text-xs p-3">&copy; 2026 Proxima International Academy | All
+                Rights Reserved | Privacy Policy</p>
+        </div>
     </footer>
 
 
