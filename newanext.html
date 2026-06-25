@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewaNext</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        secondary: '#7C3AED',
+                        accent: '#38BDF8'
+                    },
+                    fontFamily: {
+                        poppins: ['poppins', 'sans-serif'],
+
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-poppins">
+    <!-- header -->
+    <header class="sticky top-0 bg-slate-100 shadow-2xl z-10">
+        <nav class="container mx-auto px-4">
+            <div class="flex py-4 justify-between items-center">
+                <div class="flex items-center text-2xl font-semibold">
+                    <img class="h-10" src="assets/images/newanext_logo_nobg.png" alt="">
+                    <span class="text-primary">Newa</span>
+                    <span class="text-secondary">Next</span>
+                </div>
+                <div class="md:hidden">
+                    <i class="text-xl text-accent hover:text-primary fa-solid fa-bars"></i>
+                </div>
+                <div class="hidden md:flex">
+                    <ul class="flex gap-4 font-medium lg:gap-12">
+                        <li class="hover:text-primary">Home</li>
+                        <li class="hover:text-primary">About</li>
+                        <li class="hover:text-primary">Services</li>
+                        <li class="hover:text-primary">Products</li>
+                        <li class="hover:text-primary">Portfolio</li>
+                        <li class="hover:text-primary">contact</li>
+                    </ul>
+                </div>
+                <div
+                    class="hidden md:flex bg-gradient-to-r from-primary to-secondary p-1 px-4 text-white rounded-lg font-semibold">
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- hero section........................................... -->
+        <section class="bg-[#6e63c4]">
+            <div class="container mx-auto px-4 py-16 md:flex md:gap-4">
+                <div class="flex flex-col gap-5 md:w-1/2">
+                    <div class="flex flex-col gap-5">
+                        <a class="bg-[#848ddf] px-3 py-2 text-white rounded-3xl text-center w-fit" href="#">🚀
+                            Innovation Driven Technology</a>
+                        <h2 class="text-white text-4xl font-semibold lg:text-6xl">Building the Future with<span
+                                class="text-[#fde99b] block pt-3"> Cutting-Edge Software</span></h2>
+                        <p class="text-2xl text-white lg:text-2xl">Newanext delivers innovative software solutions that
+                            transform businesses. From concept to
+                            deployment, we craft digital experiences that matter.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-3 lg:flex-row  ">
+                        <button
+                            class="bg-slate-50 border-2 text-[#848ddf] hover:underline py-3 rounded-lg font-semibold lg:px-10 lg:py-4">Start
+                            Your Project</button>
+                        <button
+                            class="text-white border-2 py-3 rounded-lg hover:underline font-semibold lg:px-10 lg:py-4">View
+                            Our Work</button>
+                    </div>
+
+                    <div class="text-white flex w-full justify-between py-2 lg:w-4/5">
+                        <div>
+                            <h5 class="text-center text-2xl font-bold">20+</h5>
+                            <p class="text-[#c3b4ee]">Projects Delivered</p>
+                        </div>
+                        <div>
+                            <h5 class="text-center text-2xl font-bold">15+</h5>
+                            <p class="text-[#c3b4ee]">Happy Clients</p>
+                        </div>
+                        <div>
+                            <h5 class="text-center text-2xl font-bold">2+</h5>
+                            <p class="text-[#c3b4ee]">Years Experience</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="hidden md:flex md:w-1/2  justify-center items-center lg:items-end ">
+                    <img class="rounded-2xl md:1/2 lg:h-4/5 animate-[bounce_10s_infinite]"
+                        src="assets/images/newanext_hero.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- about section........................................... -->
+        <section>
+            <div class="container mx-auto py-5 px-4">
+                <div class="py-16">
+                    <div>
+                        <h2 class="text-3xl text-center pb-3 font-semibold">About Newanext</h2>
+                        <p class="text-[#4b5563] text-center pb-16">A passion-driven tech company built on the
+                            foundation of innovation and excellence</p>
+                    </div>
+                    <div class=" md:flex">
+                        <div class="md:w-1/2">
+                            <div>
+                                <a class="bg-[#e2d7ee] px-4 py-2 text-[#7e22ce] mb-5 block w-fit rounded-3xl shadow-2xl "
+                                    href="">Our Story</a>
+                                <h3 class="text-3xl font-semibold pb-4">Crafting Digital Excellence Since Day One</h3>
+                                <p class="text-[#4b5563]"><span class="block pb-4">
+                                        Newanext was founded by a passionate Newari entrepreneur with a vision to bridge
+                                        the
+                                        gap
+                                        between innovative ideas and cutting-edge technology. Starting from humble
+                                        beginnings in
+                                        the heart of the Kathmandu Valley, we've grown into a trusted software
+                                        development
+                                        company.
+                                    </span>
+                                    <span class="block pb-4">Our journey reflects the rich cultural heritage of Newari
+                                        craftsmanship—meticulous
+                                        attention to detail, dedication to quality, and a commitment to creating
+                                        something
+                                        extraordinary. We combine traditional values with modern technology to deliver
+                                        software
+                                        solutions that truly make a difference.</span>
+
+                                    Today, Newanext stands as a testament to what's possible when passion meets
+                                    technology,
+                                    serving clients globally while staying rooted in our cultural
+                                </p>
+                            </div>
+                            <div class="flex items-center text-nowrap gap-5 py-6 text-sm">
+                                <div class="flex gap-1  ">
+                                    <div class="bg-green-500 flex justify-center items-center rounded-full  h-5 w-5">
+                                        <i class="text-white block fa-solid fa-check"></i>
+                                    </div>
+                                    <p>Quality First</p>
+                                </div>
+                                <div class="flex gap-1   ">
+                                    <div class="bg-green-500 flex justify-center items-center rounded-full  h-5 w-5">
+                                        <i class="text-white block fa-solid fa-check"></i>
+                                    </div>
+                                    <p>Client Focused</p>
+
+                                </div>
+                                <div class="flex gap-1   ">
+                                    <div class="bg-green-500 flex justify-center items-center rounded-full  h-5 w-5">
+                                        <i class="text-white block fa-solid fa-check"></i>
+                                    </div>
+                                    <p>Innovation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 text-white ">
+                            <div class="bg-[#9139e0] rounded-xl px-5 py-7 flex flex-col gap-2">
+                                <i class="text-4xl fa-solid fa-code"></i>
+                                <h5 class="text-3xl font-semibold">50+</h5>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="bg-[#2b67e6] rounded-xl px-5 py-7 flex flex-col gap-2">
+                                <i class="text-4xl fa-solid fa-users"></i>
+                                <h5 class="text-3xl font-semibold">30+</h5>
+                                <p>Satisfied Clients</p>
+                            </div>
+                            <div class="bg-[#1ba24d] rounded-xl px-5 py-7 flex flex-col gap-2">
+                                <i class="text-4xl text-4xl fa-solid fa-trophy"></i>
+                                <h5 class="text-3xl font-semibold">15+</h5>
+                                <p>Awards Won</p>
+                            </div>
+                            <div class="bg-[#f97316] rounded-xl px-5 py-7 flex flex-col gap-2">
+                                <i class="text-4xl fa-solid fa-globe"></i>
+                                <h5 class="text-3xl font-semibold">10+</h5>
+                                <p>Countries Served</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- service section......................................... -->
+        <section>
+            <div class="container mx-auto py-5"></div>
+        </section>
+
+        <!-- products section -->
+        <section>
+            <div class="container mx-auto py-5"></div>
+        </section>
+
+        <!-- portfolio section -->
+        <section>
+            <div class="container mx-auto py-5"></div>
+        </section>
+
+        <!-- joinus section -->
+        <section>
+            <div class="container mx-auto py-5"></div>
+        </section>
+
+
+        <!-- footer section -->
+        <section>
+            <div class="container mx-auto py-5"></div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
