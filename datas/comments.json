@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "postId": 101,
+    "comment": "Great explanation!"
+  },
+  {
+    "id": 2,
+    "postId": 102,
+    "comment": "Very helpful tutorial."
+  },
+  {
+    "id": 3,
+    "postId": 103,
+    "comment": "Thanks for sharing."
+  },
+  {
+    "id": 4,
+    "postId": 104,
+    "comment": "Awesome content!"
+  },
+  {
+    "id": 5,
+    "postId": 105,
+    "comment": "Easy to understand."
+  },
+  {
+    "id": 6,
+    "postId": 106,
+    "comment": "Looking forward to more."
+  }
+]

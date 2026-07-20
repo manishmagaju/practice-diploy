@@ -1,0 +1,32 @@
+[
+  {
+    "id": 101,
+    "userId": 1,
+    "title": "Learning Node.js"
+  },
+  {
+    "id": 102,
+    "userId": 1,
+    "title": "Learning Express.js"
+  },
+  {
+    "id": 103,
+    "userId": 2,
+    "title": "Introduction to React"
+  },
+  {
+    "id": 104,
+    "userId": 2,
+    "title": "Understanding MongoDB"
+  },
+  {
+    "id": 105,
+    "userId": 3,
+    "title": "JavaScript Basics"
+  },
+  {
+    "id": 106,
+    "userId": 3,
+    "title": "CSS Grid Layout"
+  }
+]

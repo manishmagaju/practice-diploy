@@ -4,7 +4,7 @@
   "description": "programming language \r  high level\r  interpreted\r  multiparadigm\r  dyanamic\r  built in c++\r  used to built webpages\r  node.js is used to build api",
   "homepage": "https://github.com/manishmagaju/practice-diploy#readme",
   "bugs": {
-  "url": "https://github.com/manishmagaju/practice-diploy/issues"
+    "url": "https://github.com/manishmagaju/practice-diploy/issues"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
   "main": "condition.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+     "devi": "nodemon modules/promises.js"
   },
   "dependencies": {
     "date-fns": "^4.4.0"
